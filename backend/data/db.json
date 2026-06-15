@@ -1,0 +1,62 @@
+{
+  "seeded": true,
+  "users": [
+    {
+      "id": "owner_demo",
+      "role": "owner",
+      "name": "Rajesh Kumar",
+      "email": "owner@hostelpay.com",
+      "password": "owner123",
+      "phone": "9876543210",
+      "hostelName": "Sunrise PG Hostel",
+      "location": "Koramangala, Bangalore",
+      "createdAt": "2026-06-14T15:09:45.368Z"
+    },
+    {
+      "id": "tenant_1",
+      "role": "tenant",
+      "ownerId": "owner_demo",
+      "hostelName": "Sunrise PG Hostel",
+      "name": "Priya Sharma",
+      "email": "priya@email.com",
+      "password": "tenant123",
+      "phone": "9123456780",
+      "address": "Delhi",
+      "floor": "2",
+      "roomNumber": "201",
+      "sharing": "double",
+      "occupation": "student",
+      "monthlyRent": 8000,
+      "createdAt": "2026-06-14T15:09:45.369Z"
+    },
+    {
+      "id": "tenant_2",
+      "role": "tenant",
+      "ownerId": "owner_demo",
+      "hostelName": "Sunrise PG Hostel",
+      "name": "Amit Patel",
+      "email": "amit@email.com",
+      "password": "tenant123",
+      "phone": "9234567890",
+      "address": "Mumbai",
+      "floor": "1",
+      "roomNumber": "105",
+      "sharing": "single",
+      "occupation": "working",
+      "monthlyRent": 12000,
+      "createdAt": "2026-06-14T15:09:45.369Z"
+    }
+  ],
+  "payments": [],
+  "complaints": [],
+  "ownerSettings": {
+    "owner_demo": {
+      "hostelName": "Sunrise PG Hostel",
+      "ownerName": "Rajesh Kumar",
+      "upiId": "rajesh@upi",
+      "location": "Koramangala, Bangalore",
+      "qrCode": ""
+    }
+  },
+  "reminders": []
+}
